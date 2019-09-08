@@ -1,0 +1,19 @@
+{
+  "name": "communicate",
+  "version": "1.0.0",
+  "description": "Express microservice that handles communication between clients' requests.",
+  "main": "communicate.js",
+  "scripts": {
+    "start": "nodemon communicate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hussein Ismail",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "nodemon": "^1.19.2",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  }
+}
