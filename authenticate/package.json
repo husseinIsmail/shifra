@@ -1,0 +1,18 @@
+{
+  "name": "authenticate",
+  "version": "1.0.0",
+  "description": "Express microservice which authenticates clients' credentials based on a given credentials' data set.",
+  "main": "authenticate.js",
+  "scripts": {
+    "start": "nodemon communicate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "nodemon": "^1.19.2"
+  }
+}
